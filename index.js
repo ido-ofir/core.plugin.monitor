@@ -1,7 +1,7 @@
 module.exports = {
-    name: 'core.monitor',
+    name: 'core.plugin.monitor',
     dependencies: [
-        // 'core.eventEmitter',
+        'core.plugin.emitter',
     ],
     extend: {
         monitor(type, data){
